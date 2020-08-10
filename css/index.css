@@ -1,0 +1,159 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital@0;1&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.button{
+    padding: 8px 30px;
+    height: auto;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.button.primary{
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+
+/* HERO */
+
+#hero{
+    background-image: url('../img/lebron_final.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    color: #fff;
+}
+
+.hero-text.column{
+    padding-top: 44%;
+}
+
+.hero-text h1{
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-weight: 700;
+    font-size: 150px;
+    text-align: center;
+}
+
+/* GREATNESS */
+
+#greatness{
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+#greatness h1{
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+#greatness h5{
+    text-align: center;
+    font-weight: 700;
+}
+#greatness .nav{
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+.nav .column.active{
+    color: #FFBB00;
+}
+
+.timeline-row{
+    padding-bottom: 100px;
+}
+
+.column.description{
+    padding-left: 50px;
+}
+
+.column.description-inverted{
+    padding-right: 50px;
+}
+
+/* I PROMISE SCHOOL */
+#ipromisebg{
+    background-image: url('../img/lebron-suite.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#more-than-an-athlete{
+    padding: 6% 0;
+}
+
+#more-than-an-athlete .row .column{
+    padding: 0 3.0rem;
+}
+
+#more-than-an-athlete h1{
+    text-align: center;
+    font-style: italic;
+}
+
+#more-than-an-athlete .accomplishments{
+    padding-top: 6%;
+    flex-wrap: wrap;
+}
+
+#more-than-an-athlete .accomplishments .column{
+    flex-basis: 33%;
+    max-width: 33%;
+    padding-bottom: 50px;
+}
+
+.accomplishments .card{
+    background: #fff;
+    display: block;
+    color: #000;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.24);
+    transition: all, .3s ease-in-out;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h5{
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card p{
+    padding: 0 20px 40px 20px;
+    margin: 0;
+}
+
+.card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 22px 43px rgba(0,0,0,.15);
+    transition: all, .3s ease-in-out;
+}
+
+#lebrons-quote .quote{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+#lebrons-quote .quote h1{
+    letter-spacing: 5px;
+    font-style: italic;
+    line-height: 70px;
+}
+
+#lebrons-quote .quote h1 span{
+    font-size: 30px;
+}
